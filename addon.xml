@@ -33,5 +33,6 @@ v0.1.0 (2019-05-01)
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
         </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>
