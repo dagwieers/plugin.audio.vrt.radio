@@ -38,7 +38,7 @@ class IPTVManager:
             if not channel.get('mp3_128'):
                 continue
             streams.append(dict(
-                id='{name}.be'.format(**channel),
+                id=channel.get('epg_id'),
                 name=channel.get('label'),
                 logo=channel.get('logo'),
                 stream=channel.get('mp3_128'),

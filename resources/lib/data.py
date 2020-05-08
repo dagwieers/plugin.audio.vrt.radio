@@ -19,6 +19,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/radio1-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/radio1.aac',
         logo='https://images.vrt.be/orig/logos/radio1.png',
+        epg_id='radio1.be',
         preset=901,
     ),
     dict(
@@ -34,6 +35,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/radio1_classics_mid.mp3',
         aac_128='http://icecast.vrtcdn.be/radio1_classics.aac',
         logo='https://images.vrt.be/orig/2020/04/08/b1c35b45-7961-11ea-aae0-02b7b76bf47f.png',
+        epg_id='radio1classics.be',
         preset=908,
     ),
     dict(
@@ -49,6 +51,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/ra2vlb-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/ra2vlb.aac',
         logo='https://images.vrt.be/orig/logo/radio2/RADIO2_RED_RGB.png',
+        epg_id='radio2vlb.be',
         preset=902,
     ),
     dict(
@@ -63,8 +66,8 @@ CHANNELS = [
         mp3_128='http://icecast.vrtcdn.be/klara-high.mp3',
         mp3_64='http://icecast.vrtcdn.be/klara-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/klara.aac',
-        epg_id='klara.be',
         logo='https://images.vrt.be/orig/logos/klara.png',
+        epg_id='klara.be',
         preset=903,
     ),
     dict(
@@ -79,8 +82,8 @@ CHANNELS = [
         mp3_128='http://icecast.vrtcdn.be/klaracontinuo-high.mp3',
         mp3_64='http://icecast.vrtcdn.be/klaracontinuo-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/klaracontinuo.aac',
-        epg_id='clara-continuo.be',
         logo='https://images.vrt.be/orig/logos/klara_continuo.png',
+        epg_id='klaracontinuo.be',
         preset=916,
     ),
     dict(
@@ -96,6 +99,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/stubru-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/stubru.aac',
         logo='https://images.vrt.be/orig/2019/03/12/1e383cf5-44a7-11e9-abcc-02b7b76bf47f.png',
+        epg_id='stubru.be',
         preset=904,
     ),
     dict(
@@ -111,6 +115,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/stubru_tijdloze-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/stubru_tijdloze.aac',
         logo='https://images.vrt.be/orig/2019/02/21/923b0fe2-35ce-11e9-abcc-02b7b76bf47f.png',
+        epg_id='stubrutijdloze.be',
         preset=918,
     ),
     dict(
@@ -126,6 +131,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/stubru_tgs-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/stubru_tgs.aac',
         logo='https://images.vrt.be/orig/2020/04/02/53dad354-74af-11ea-aae0-02b7b76bf47f.png',
+        epg_id='stubruikluisterbelgisch.be',
         preset=919,
     ),
     dict(
@@ -141,6 +147,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/mnm-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/mnm.aac',
         logo='https://images.vrt.be/orig/logo/mnm/logo_witte_achtergrond.png',
+        epg_id='mnm.be',
         preset=905,
     ),
     dict(
@@ -156,6 +163,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/mnm_hits-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/mnm_hits.aac',
         logo='https://images.vrt.be/orig/logo/mnm/mnm_hits_logo_2018.png',
+        epg_id='mnmhits.be',
         preset=921,
     ),
     dict(
@@ -171,12 +179,13 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/mnm_urb-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/mnm_urb.aac',
         logo='https://images.vrt.be/orig/logo/mnm_urbanice_logo.png',
+        epg_id='mnmurbanice.be',
         preset=922,
     ),
     dict(
         id='58',
         name='mnm-90s00s',
-        label="MNM Back to the 90's & 00's",
+        label="MNM Back to the 90's & nillies",
         tagline='Music and More',
         studio='MNM',
         website='https://mnm.be/',
@@ -186,6 +195,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/mnm_90s00s-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/mnm_90s00s.aac',
         logo='https://images.vrt.be/orig/2019/02/21/76e54cd8-35f1-11e9-abcc-02b7b76bf47f.png',
+        epg_id='mnmbacktothe90snillies.be',
         preset=923,
     ),
     # dict(
@@ -200,6 +210,7 @@ CHANNELS = [
     #     mp3_128='http://icecast.vrtcdn.be/sporza-high.mp3',
     #     mp3_64='http://icecast.vrtcdn.be/sporza-mid.mp3',
     #     aac_128='http://icecast.vrtcdn.be/sporza.aac',
+    #     epg_id='sporza.be',
     #     preset=906,
     # ),
     dict(
@@ -213,6 +224,7 @@ CHANNELS = [
         mpeg_dash_128='https://ondemand-radio-cf-vrt.akamaized.net/audioonly/content/fixed/11_11niws-snip_hi.mp4/.mpd',
         mp3_128='https://progressive-audio.lwc.vrtcdn.be/content/fixed/11_11niws-snip_hi.mp3',
         logo='https://images.vrt.be/orig/logos/vrtnws.png',
+        epg_id='vrtnws.be',
         preset=925,
     ),
     dict(
@@ -228,6 +240,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/ketnetradio-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/ketnetradio.aac',
         logo='https://images.vrt.be/orig/logo/ketnet/ketnet_hits_rgb.png',
+        epg_id='ketnethits.be',
         preset=927,
     ),
     dict(
@@ -243,6 +256,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/vrtevent-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/vrtevent.aac',
         logo='https://images.vrt.be/orig/logo/vrt.png',
+        epg_id='vrtevent.be',
         preset=929,
     ),
     dict(
@@ -258,6 +272,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/ra2ant-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/ra2ant.aac',
         logo='https://images.vrt.be/orig/logo/radio2/RADIO2_RED_RGB.png',
+        epg_id='radio2ant.be',
         preset=911,
     ),
     dict(
@@ -273,6 +288,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/ra2lim-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/ra2lim.aac',
         logo='https://images.vrt.be/orig/logo/radio2/RADIO2_RED_RGB.png',
+        epg_id='radio2lim.be',
         preset=912,
     ),
     dict(
@@ -288,6 +304,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/ra2ovl-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/ra2ovl.aac',
         logo='https://images.vrt.be/orig/logo/radio2/RADIO2_RED_RGB.png',
+        epg_id='radio2ovl.be',
         preset=913,
     ),
     dict(
@@ -303,6 +320,7 @@ CHANNELS = [
         mp3_64='http://icecast.vrtcdn.be/ra2wvl-mid.mp3',
         aac_128='http://icecast.vrtcdn.be/ra2wvl.aac',
         logo='https://images.vrt.be/orig/logo/radio2/RADIO2_RED_RGB.png',
+        epg_id='radio2wvl.be',
         preset=914,
     ),
 ]
